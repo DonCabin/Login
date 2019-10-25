@@ -9,19 +9,20 @@
       </label>
 
 
-      {{#if currentUser}}
 
+      {{#if currentUser}}
         <form class="new-task">
 
           <input type="text" name="text" placeholder="Type to add new tasks">
 
         </form>
+        {{#each tasks}}
+          {{>task}}
+          {{/each}}
       {{/if}}
     </header>
     <ul>
-      {{#each tasks}}
-        {{>task}}
-        {{/each}}
+
     </ul>
 
   </div>
