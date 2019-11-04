@@ -1,10 +1,10 @@
 body {
 
   font-family: sans-serif;
+  background-image: url("https://images6.alphacoders.com/892/thumb-1920-892662.jpg");
+  background-position: 50%;
 
-  background-color: #315481;
 
-  background-image: linear-gradient(to bottom, #315481, #918e82 100%);
 
   background-attachment: fixed;
 
@@ -42,7 +42,8 @@ body {
 
   min-height: 100%;
 
-  background: white;
+  background-color:rgba(0, 0, 0, 0.5);
+
 
 }
 
